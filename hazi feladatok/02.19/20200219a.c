@@ -10,7 +10,7 @@ int main()
         osszeg += szam;
     } while (szam != 0);
     
-    printf("Elemek osszege: %d\n", osszeg);
+    printf("\nElemek osszege: %d\n", osszeg);
     
     return 0;
 }

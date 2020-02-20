@@ -8,13 +8,12 @@ int main()
 
     while(szam != 0)
     {
-        printf("%d", szam);
         printf("Egesz szam (vege: 0): ");
         scanf("%d", &szam);
         ++db;
     }
 
-    printf("Elemek szama: %d\n", db);
+    printf("\nElemek szama: %d\n", db);
     
     return 0;
 }

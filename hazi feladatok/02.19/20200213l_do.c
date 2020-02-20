@@ -11,7 +11,7 @@ int main()
     } while (szam != 0);
 
     // Ha az első szám 0 már azt is bele fogja számolni, ezért db - 1 a helyes eredény
-    printf("Elemek szama: %d\n", db - 1);
+    printf("\nElemek szama: %d\n", db - 1);
 
     return 0;
 }
