@@ -12,4 +12,6 @@ int main()
 
     // Ha az első szám 0 már azt is bele fogja számolni, ezért db - 1 a helyes eredény
     printf("Elemek szama: %d\n", db - 1);
+
+    return 0;
 }

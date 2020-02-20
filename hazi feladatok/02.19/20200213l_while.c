@@ -15,4 +15,6 @@ int main()
     }
 
     printf("Elemek szama: %d\n", db);
+    
+    return 0;
 }

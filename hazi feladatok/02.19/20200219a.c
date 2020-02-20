@@ -11,4 +11,6 @@ int main()
     } while (szam != 0);
     
     printf("Elemek osszege: %d\n", osszeg);
+    
+    return 0;
 }
