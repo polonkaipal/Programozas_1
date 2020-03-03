@@ -15,7 +15,7 @@ double get_positive_number()
     return n;
 }
 
-int valid_triangle(int a, int b, int c)
+int valid_triangle(double a, double b, double c)
 {
     if (a + b > c && a + c > b && b + c > a)
         return TRUE;
