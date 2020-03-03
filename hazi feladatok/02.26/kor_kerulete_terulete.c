@@ -21,9 +21,9 @@ int main()
     int r;
     printf("Add meg a kor sugarat (egesz szamban cm-ben): ");
     r = get_positive_number();
-    
+
     printf("A kor kerulete: %.4lf cm\n", circle_perimeter(r));
     printf("A kor terulete: %.4lf cm2\n", circle_area(r));
-    
+
     return 0;
 }
