@@ -6,7 +6,7 @@ double get_positive_number()
 {
     double n;
     scanf("%lf", &n);
-    while (n < 0)
+    while (n <= 0)
     {
         printf("Adj meg egy pozitiv valos szamot: ");
         scanf("%lf", &n);
