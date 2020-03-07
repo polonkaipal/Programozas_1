@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int skyscrapper(int m, int t[])
+int skyscrapper(int m, const int t[])
 {
     int sum = 0;
     for (int i = 1; i < m; ++i)

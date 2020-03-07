@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int is_ordered(int m, int t[])
+int is_ordered(int m, const int t[])
 {
     for (int i = 1; i < m; ++i)
         if (t[i - 1] > t[i])

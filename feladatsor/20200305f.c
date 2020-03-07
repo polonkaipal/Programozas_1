@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_array(int m, int t[])
+void print_array(int m, int const t[])
 {
     for (int i = 0; i < m; ++i)
         printf("%d%s", t[i], i != m - 1 ? ", " : "");

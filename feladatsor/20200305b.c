@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int get_min(int m, int t[])
+int get_min(int m, const int t[])
 {
     int szam = t[0];
     for (int i = 1; i < m; ++i)
@@ -9,7 +9,7 @@ int get_min(int m, int t[])
     return szam;
 }
 
-int get_max(int m, int t[])
+int get_max(int m, const int t[])
 {
     int szam = t[0];
     for (int i = 1; i < m; ++i)

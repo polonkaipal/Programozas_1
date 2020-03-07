@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_array_reverse(int m, int t[])
+void print_array_reverse(int m, const int t[])
 {
     for (int i = m - 1; i > -1; --i)
         printf("%d ", t[i]);
