@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "prog1.h"
 #include <string.h>
+#define FALSE 0
+#define TRUE 1
 
 int is_palindrome(const string s)
 {
@@ -8,11 +10,11 @@ int is_palindrome(const string s)
     while (i < j)
     {
         if (s[i] != s[j])
-            return 0;
+            return FALSE;
         ++i;
         --j;
     }
-    return 1;
+    return TRUE;
 }
 
 int main()
