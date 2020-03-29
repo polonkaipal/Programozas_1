@@ -21,7 +21,8 @@ int main()
             legnagyobb = hossz - 1;
         }
         ++db;
-    } while(strcmp("*", szo) != 0);
+    }
+    while (strcmp("*", szo) != 0);
 
     // Az utólsó szó a végjel, így le kell vonni a db változóból
     printf("\n%d db szót adtál meg. ", --db); 
