@@ -45,7 +45,7 @@ int main()
     {
         if (tomb[i] == 1)
         {
-            printf("%d%s", i + MIN, db - 1 != 0 ? ", " : "\n");
+            printf("\n%d%s", i + MIN, db - 1 != 0 ? ", " : "\n");
             --db;
         }
         ++i;

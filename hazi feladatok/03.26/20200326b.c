@@ -33,7 +33,7 @@ int main()
         scanf("%d", &szam);
     }
 
-    printf("%d db különböző szám lett megadva.\n", db);
+    printf("\n%d db különböző szám lett megadva.\n", db);
     if (db != 0)
     {
         printf("Ezek (növekvő sorrendben): ");
