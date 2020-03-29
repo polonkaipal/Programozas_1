@@ -6,7 +6,7 @@
 int main()
 {
     printf("Adj meg 0 végjelig egész számokat az [%d, %d] intervallumból!\n", MIN, MAX);
-    int tomb[MAX];
+    int tomb[MAX - MIN + 1];
     for (int i = 0; i < MAX; ++i)
     {
         tomb[i] = 0;
