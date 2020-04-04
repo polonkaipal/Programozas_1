@@ -13,7 +13,7 @@ int main()
     printf("Alsó határ: ");
     scanf("%d", &also_hatar);
     int felso_hatar;
-    printf("Felső határ: ");
+    printf("Felső határ (zárt intervallum): ");
     scanf("%d", &felso_hatar);
 
     srand(time(NULL));
@@ -22,7 +22,7 @@ int main()
         random_szamok[i] = (rand() % (felso_hatar - also_hatar + 1)) + also_hatar;
     }
 
-    printf("A generált számok: ");
+    printf("\nA generált számok: ");
     for (int i = 0; i < db; ++i)
     {
         printf("%d%s", random_szamok[i], i + 1 != db ? ", " : "\n");
