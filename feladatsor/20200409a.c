@@ -6,7 +6,7 @@
     Egy string tömb elemeinek hosszát vizsgálja,
     és visszaadja a legrövidebb elem hosszát.
 */
-int legrovidebb_hossz(int m, const char *t[])
+int legrovidebb_hossz(const int m, const char *t[])
 {
     int legrovidebb = strlen(t[0]);
     for (int i = 1; i < m; ++i)
@@ -24,7 +24,7 @@ int legrovidebb_hossz(int m, const char *t[])
     Egy string tömb elemei közül kiírja sortöréssel
     elválasztva a megadott hosszú szavakat.
 */
-void adott_hosszusagu_szavak(int m, const char *t[], int hossz)
+void adott_hosszusagu_szavak(const int m, const char *t[], const int hossz)
 {
     for (int i = 0; i < m; ++i)
     {
