@@ -29,7 +29,7 @@ void feltolt(const int m, int *t)
 /*
     Kiírja a tömb elemeit vesszővel elválasztva, kivéve az utolsónál.
 */
-void kiir(int m, int *t)
+void kiir(const int m, const int *t)
 {
     for (int i = 0; i < m; ++i)
     {
