@@ -59,7 +59,7 @@ int main()
 {
     char *szo;
     char s[SIZE];
-    puts("Adj meg sztringeket '*' végjelig!");
+    printf("Adj meg sztringeket '*' végjelig!\n\n");
     while (1)
     {
         printf("Input: ");
