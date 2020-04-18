@@ -10,7 +10,7 @@
 /*
     A kapott mátrixot feltölti random számokkal.
 */
-void matrixot_feltolt(int meret, int tomb[meret][meret])
+void matrixot_feltolt(const int meret, int tomb[meret][meret])
 {
     for (int i = 0; i < meret; ++i)
     {
@@ -24,7 +24,7 @@ void matrixot_feltolt(int meret, int tomb[meret][meret])
 /*
     A kapott mátrixot kiíratja a konzolra.
 */
-void matrixot_kiir(int meret, int tomb[meret][meret])
+void matrixot_kiir(const int meret, const int tomb[meret][meret])
 {
     for (int i = 0; i < meret; ++i)
     {
@@ -39,7 +39,7 @@ void matrixot_kiir(int meret, int tomb[meret][meret])
 /*
     A kapott mátrixból kiírja a főátló elemeit.
 */
-void foatlot_kiir(int meret, int tomb[meret][meret])
+void foatlot_kiir(const int meret, const int tomb[meret][meret])
 {
     for (int i = 0; i < meret; i++)
     {
