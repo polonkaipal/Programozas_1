@@ -30,7 +30,7 @@ int main(const int argc, const char *argv[])
                                 // Csak akkor érdemes ellenőrizni a szorzatot, ha már jó az összeg
                                 if (a * b * c * d * e * f == szorzat)
                                 {
-                                    printf("A kersett számok: %d, %d, %d, %d, %d, %d\n", f, e, d, c, b, a);
+                                    printf("A keresett számok: %d, %d, %d, %d, %d, %d\n", f, e, d, c, b, a);
                                 }
                             }
                         }
